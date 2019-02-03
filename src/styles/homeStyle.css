@@ -1,0 +1,27 @@
+.homeTransition-appear{
+    opacity: 0;
+  }
+  
+.homeTransition-appear.homeTransition-appear-active{
+  opacity: 1;
+  transition: all .4s ease-in-out;
+}
+ 
+#home {
+  background-image: url("../assets/350z-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100%;
+}
+
+.wt-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
